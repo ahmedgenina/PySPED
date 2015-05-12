@@ -1615,7 +1615,7 @@ class Ide(nfe_200.Ide):
         xml += self.dhSaiEnt.xml
 
         self.dSaiEnt.valor = self.dhSaiEnt.valor
-        self.hSaiEnt.valor = self.hSaiEnt.valor
+        self.hSaiEnt.valor = self.dhSaiEnt.valor
 
         xml += self.tpNF.xml
         xml += self.idDest.xml
